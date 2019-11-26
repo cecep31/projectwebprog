@@ -313,3 +313,13 @@ input[type="submit"]{
   .closebutn:hover {
 	color: black;
   }
+  /* navbar                          -------------------- */
+  nav ul {
+	background:#37988e;
+	padding: 0 20px;
+	list-style: none;
+	position: relative;
+	display: ruby-text-container;
+	width: 100%;
+	
+ }
