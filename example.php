@@ -34,8 +34,7 @@
 </div>
 <?php
 if( isset($_POST['login']) ){
-    include "login.php";
-  }
+    include "login.php";}
   ?>
 <?php
 

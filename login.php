@@ -1,12 +1,12 @@
 <div id="signin">
 <fieldset>
-<img src="avatar.png" width="120px" />
 <form name="form1" method="post" action="" enctype="multipart/form-data">
-  <h3>ADMINISTRATOR</h3>
+  <h3>anda belum login</h3>
   <p>SILAHKAN LOGIN</p>
     <input type="text" name="username" id="username" placeholder="Username">
     <input type="password" name="password" id="password" placeholder="Password">
-    <input type="submit" name="login" id="login" value="LOGIN ADMIN">
+    <input type="submit" name="login" id="login" value="LOGIN ADMIN"><br>
+    <a href="<?php echo "?p=daftar" ?>">belum daftar</a>
 </form>
 <?php
 if( isset($_POST['login']) ){
@@ -26,8 +26,14 @@ if( isset($_POST['login']) ){
     <strong>Danger!</strong> username atau password yang anda masukan salah.
     </div>";
   }
-  echo "<META HTTP-EQUIV='Refresh' Content='1; URL=?p=home'>";
+  echo "<META HTTP-EQUIV='Refresh' Content='1; URL=?p=main'>";
 }
+
+if( isset($_POST['daftar']) ){
+  echo "<META HTTP-EQUIV='Refresh' Content='1; URL=?p=daftar'>";
+}
+
+
   
 ?>
 

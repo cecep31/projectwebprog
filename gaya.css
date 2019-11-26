@@ -11,12 +11,13 @@ body{
 
 #signin{
 	max-width:350px;
-	margin:150px auto;
+	margin:200px auto;
 	position:relative;
 	display:block;
 	background-color:#FFFFFF;
 	box-shadow:0 0 5px #0B5ABB;
 	text-align:center;
+	border-radius: 10%;
 }
 
 #signin img{
@@ -29,7 +30,16 @@ body{
 	text-align:center;
 	color:#0B5ABB;
 	font-size:24px;
-	padding-top:60px;
+
+	
+}
+
+#signin a{
+	text-align:center;
+	color:#0B5ABB;
+	font-size:18px;
+
+	
 }
 
 #signin p{
@@ -39,7 +49,7 @@ body{
 }
 
 fieldset{
-	margin:10px;
+	margin:20px;
 	border:none;
 }
 
@@ -277,21 +287,16 @@ input[type="submit"]{
 	text-align:right;
 	min-height:50px;
 }
-.alert {
-	padding: 20px;
-	background-color: #f44336;
-	color: white;
-  }
   
   .closebtn {
-	margin-left: 15px;
+	margin-left: 5px;
 	color: white;
 	font-weight: bold;
 	float: right;
 	font-size: 22px;
 	line-height: 20px;
 	cursor: pointer;
-	transition: 0.3s;
+	transition: 0.7s;
   }
   .alert {
 	padding: 10px;
@@ -314,12 +319,3 @@ input[type="submit"]{
 	color: black;
   }
   /* navbar                          -------------------- */
-  nav ul {
-	background:#37988e;
-	padding: 0 20px;
-	list-style: none;
-	position: relative;
-	display: ruby-text-container;
-	width: 100%;
-	
- }

@@ -6,7 +6,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" type="text/css" href="gaya.css" />
 <title>kuycoding | belajar coding gampang</title>
 </head>
 
@@ -19,8 +19,8 @@ if(!empty($_SESSION["useradm"]) and !empty($_SESSION["passadm"])){
 <div class="grid">
   <div class="dh12">
     <div class="container1">
-      <span style="font-size:20px; cursor:pointer; padding-right:15px;" onclick="openNav()">&#9776;</span>
-      Online Shop Administrator
+      <span style="font-size:20px; cursor:pointer; padding-right:20px; " align="right" onclick="openNav()">&#9776;</span>
+      kuycoding
     </div>
   </div>
 </div>
@@ -72,7 +72,7 @@ function closeNav(){
     include "produkdetail.php";
 	
   }else{
-    include "home.php";
+    include "main.php";
   }
 ?> 
     </div>
