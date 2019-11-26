@@ -1,7 +1,7 @@
 <div id="signin">
 <fieldset>
 <form name="form1" method="post" action="" enctype="multipart/form-data">
-  <h3>anda belum login</h3>
+  <h3>Anda belum login</h3>
   <p>SILAHKAN LOGIN</p>
     <input type="text" name="username" id="username" placeholder="Username">
     <input type="password" name="password" id="password" placeholder="Password">
@@ -29,9 +29,7 @@ if( isset($_POST['login']) ){
   echo "<META HTTP-EQUIV='Refresh' Content='1; URL=?p=main'>";
 }
 
-if( isset($_POST['daftar']) ){
-  echo "<META HTTP-EQUIV='Refresh' Content='1; URL=?p=daftar'>";
-}
+
 
 
   
